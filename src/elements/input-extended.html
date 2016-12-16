@@ -1,0 +1,11 @@
+<link rel="import" href="https://polygit.org/components/polymer/polymer.html">
+
+<script>
+    HelloElement = Polymer({
+        is: 'input-extended',
+        extends: 'input',
+        created: function() {
+            this.value = `I'm extended!`;
+        } 
+    });
+</script>
